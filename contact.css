@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 12px;
+}
+ul li :hover{
+    background-color: rgb(96, 228, 255);
+    height: 500px;
+    width: 500px;
+}
+footer {
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+pre a{
+    text-decoration: none;
+    color: #fff;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;  
+    padding-bottom:50px;  
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction:column;
+    background-color: #acacacb3;
+    padding: 100px;
+    border-radius:150px;
+}
+div {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+body{
+    background-image:url(/mini projet/photo/bag.jpg) ;
+}
+input{
+    height: 20px;
+    width: 250px;
+}
+button{
+    height: 30px;
+    width: 250px;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 12px;
+}
+ul li :hover{
+    background-color: rgb(96, 228, 255);
+    height: 500px;
+    width: 500px;
+}
+footer {
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+pre a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-image:url(/mini_project/photo/bag.jpg) ;
+    
+}
+strong {
+    color: #09421e;
+}
+.text2 {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.text1 {
+    font-size: 1.2rem;
+    color: #150c9a;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    color: #222;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 .titre {
+    color: #007bff;
+}
+
+.text1 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text2 {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 10%;
+    text-size-adjust: 50px;
+}
+text{
+    size-adjust: 50px;
+}
+
+strong {
+    color: #007bff;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
